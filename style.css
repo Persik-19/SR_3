@@ -1,0 +1,199 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+
+.search__info{
+    width: auto;
+    padding-left: 50px;
+}
+
+.search_input{
+    width: 550px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #FFFF;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+.search_button{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #1da1f3;
+}
+
+.header__top{
+    background-image: url(../images/header.png);
+    padding: 0 10px;
+}
+
+
+.header__top{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px 0 16px;
+    align-items: center;
+}
+
+.header__login-register{
+    margin-right: 20px;
+}
+
+.header__login-button{
+    color: #FFFF;
+    text-align: center;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.header__register-button{
+    color: #FFFF;
+    text-align: center;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+
+.header{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-style: cover;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+
+.header__content{
+    margin: 94px 50px 0px;    
+}
+
+.header_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__info{
+    background-color: #FFFF;
+    padding: 10px 75px 20px;
+    margin-bottom: 100px;
+    min-height: 1020px;
+    max-height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ul__all{
+    font-size: 25px;
+}
+
+.menu__ttt{
+    color: #000000;
+}
+
+.ul__menu{
+    margin: 5px 20px 15px;
+    
+}
+
+.menu__resept{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.info_menu{
+    
+    width: 1300px;
+    min-width: absolute;
+    max-height: absolute;
+    min-height: 1020px;
+    background-color: #FFFF;
+    margin-left: 33px;
+    margin-bottom: 100px;
+
+    
+}
+
+.Cooker__menu{
+    font-size: 35px;
+    text-align: center;
+}
+
+.Cooker__menu-info{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.menu__resept1{
+    margin: 50px 25px;
+    background: rgba(179, 218, 236, 0.48);
+}
+
+.select__resept{
+    height: 50px;
+    width: 100px;
+    display:block;
+    cursor: pointer;
+
+    position: relative;
+    border: 1px solid white;
+    margin: 10px auto;
+}
+
+
+
+
+
+.footer{    
+    background-color: #B3DAEC;;
+    color: #fff;  
+    color: #000000;
+    padding-bottom: 5px;
+    padding-right: 10px;
+
+}
+
+.footer__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer__text{
+    padding: 20px 20px 20px;
+    font-size: 30px;
+    min-width: auto; 
+    max-width: 1300px;
+}
+
+.text-left{
+    text-align: left;
+    font-size: 40px;
+}
+
+.text-right{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Footer */
